@@ -40,6 +40,16 @@ const Dashboard: React.FC = () => {
                     </List>
                 </Paper>
             </Grid>
+            <Grid item xs={12}>
+                <Paper className={classes.paper}>
+                    <Typography variant="h5" gutterBottom={true}>大学への問い合わせについて</Typography>
+                    <Typography variant="body1">
+                        緊急事態宣言が解除されるまでの期間，大学の窓口は閉鎖しています．
+                        問い合わせはメールで受け付けているようですが，通常よりも対応に時間がかかるようです．
+                        (<a href="https://www.tus.ac.jp/today/20200409_3256.pdf">窓口の取り扱いについて</a>)
+                    </Typography>
+                </Paper>
+            </Grid>
         </Grid>
     );
 }
