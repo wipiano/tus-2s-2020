@@ -29,7 +29,8 @@ const Dashboard: React.FC = () => {
                         そのため，第2部数学科の新1年生向けに，情報を1箇所にまとめた非公式サイトを開設しました．
                         今後学生生活に役立つさまざまな情報を載せていく予定です．
                         管理者も新1年のため，誤った情報や不足している点がたくさんあると思いますので，つねに最新の公式発表も確認するようにしましょう．
-                        情報提供や改善の提案は <a href="https://docs.google.com/forms/d/1LwwUYLwPktWRQDjhVva-1r8abPOQnuBFBb3e_b2quVk">情報提供フォーム</a>にお願いします．
+                        情報提供や改善の提案は <a href="https://docs.google.com/forms/d/1LwwUYLwPktWRQDjhVva-1r8abPOQnuBFBb3e_b2quVk">情報提供フォーム</a>または，
+                        <a href="https://twitter.com/wipianoooo">管理人 twitter</a>にお願いします．
                     </Typography>
                 </Paper>
             </Grid>
