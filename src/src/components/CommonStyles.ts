@@ -6,6 +6,7 @@ const commonStyles = makeStyles((theme) => ({
         display: 'flex',
         overflow: 'auto',
         flexDirection: 'column',
+        maxWidth: 800
     },
     fixedHeight: {
         height: 240,

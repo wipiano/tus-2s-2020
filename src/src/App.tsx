@@ -20,6 +20,7 @@ import Dashboard from "./components/Dashboard";
 import Test from './components/test'
 import EventPage from './components/Event'
 import Syllabus from "./components/Syllabus";
+import Links from "./components/Links";
 
 const Copyright: React.FC = () => {
     return (
@@ -170,6 +171,7 @@ const App: React.FC = () => {
                                 <Route exact path="/event" component={EventPage} />
                                 <Route path="/test" component={Test} />
                                 <Route path="/syllabus" component={Syllabus} />
+                                <Route path="/links" component={Links} />
                             </Switch>
                             <Box pt={4}>
                                 <Copyright />
