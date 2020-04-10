@@ -1,5 +1,4 @@
 import React from 'react';
-import clsx from 'clsx';
 import {makeStyles} from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
@@ -19,7 +18,6 @@ const useStyles = makeStyles((theme) => ({
 
 const Dashboard: React.FC = () => {
     const classes = useStyles();
-    const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
 
     return (
         <Grid container spacing={3}>
