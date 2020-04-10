@@ -37,7 +37,7 @@ const Item: React.FC<ItemProps> = ({path, text, icon}) => {
 export const mainListItems = (
     <div>
         <Item path="/" text="Dashboard" icon="Dashboard"/>
-        <Item path="/test" text="test" icon="Dashboard"/>
+        {/*<Item path="/test" text="test" icon="Dashboard"/>*/}
     </div>
 );
 
