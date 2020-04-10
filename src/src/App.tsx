@@ -18,6 +18,8 @@ import { mainListItems } from './components/ListItems';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import Dashboard from "./components/Dashboard";
 import Test from './components/test'
+import EventPage from './components/Event'
+import Syllabus from "./components/Syllabus";
 
 const Copyright: React.FC = () => {
     return (
@@ -144,33 +146,37 @@ const App: React.FC = () => {
                 </Toolbar>
             </AppBar>
             <BrowserRouter>
-                <Drawer
-                    variant="permanent"
-                    classes={{
-                        paper: clsx(classes.drawerPaper, !open && classes.drawerPaperClose),
-                    }}
-                    open={open}
-                >
-                    <div className={classes.toolbarIcon}>
-                        <IconButton onClick={handleDrawerClose}>
-                            <ChevronLeftIcon />
-                        </IconButton>
-                    </div>
-                    <Divider />
-                    <List>{mainListItems}</List>
-                </Drawer>
-                <main className={classes.content}>
-                    <div className={classes.appBarSpacer} />
-                    <Container maxWidth="lg" className={classes.container}>
-                        <Switch>
-                            <Route exact path="/" component={Dashboard} />
-                            <Route path="/test" component={Test} />
-                        </Switch>
-                        <Box pt={4}>
-                            <Copyright />
-                        </Box>
-                    </Container>
-                </main>
+                <React.Fragment>
+                    <Drawer
+                        variant="permanent"
+                        classes={{
+                            paper: clsx(classes.drawerPaper, !open && classes.drawerPaperClose),
+                        }}
+                        open={open}
+                    >
+                        <div className={classes.toolbarIcon}>
+                            <IconButton onClick={handleDrawerClose}>
+                                <ChevronLeftIcon />
+                            </IconButton>
+                        </div>
+                        <Divider />
+                        <List>{mainListItems}</List>
+                    </Drawer>
+                    <main className={classes.content}>
+                        <div className={classes.appBarSpacer} />
+                        <Container maxWidth="lg" className={classes.container}>
+                            <Switch>
+                                <Route exact path="/" component={Dashboard} />
+                                <Route exact path="/event" component={EventPage} />
+                                <Route path="/test" component={Test} />
+                                <Route path="/syllabus" component={Syllabus} />
+                            </Switch>
+                            <Box pt={4}>
+                                <Copyright />
+                            </Box>
+                        </Container>
+                    </main>
+                </React.Fragment>
             </BrowserRouter>
         </div>
     );
