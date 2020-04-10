@@ -14,6 +14,8 @@ const Syllabus: React.FC = () => {
                 4/17 までの間，セブンイレブンのネットプリントで予約番号 11671979 で時間割を印刷できます．
                 (参考: <a
                 href="http://tuspress.jp/2020/03/09/%E5%85%88%E8%BC%A9%E3%81%AE%E6%99%82%E9%96%93%E5%89%B2%E2%91%A0%E3%80%80%E3%80%9C%E7%90%86%E5%AD%A6%E9%83%A8%E7%AC%AC%E2%85%B1%E9%83%A8%E6%95%B0%E5%AD%A6%E7%A7%91%E7%B7%A8%E3%80%9C/">先輩の時間割</a>)
+                <br/>
+                履修申告期間は， 5/1 〜 5/13 です(<a href="https://www.tus.ac.jp/today/20200325103.pdf">2020年度履修申告日程</a>)．
             </Typography>
             <Typography variant="body1" gutterBottom={true}>
                 シラバスは <a href="https://class.admin.tus.ac.jp/up/faces/login/Com00501A.jsp">CLASS</a> で確認できます．
