@@ -25,6 +25,18 @@ const Dashboard: React.FC = () => {
         <Grid container spacing={3}>
             <Grid item xs={12}>
                 <Paper className={classes.paper}>
+                    <Typography variant="h5" gutterBottom={true}>このサイトについて</Typography>
+                    <Typography variant="body1">
+                        新型コロナウイルスの影響により，東京理科大学の新入生向け情報が散逸しています．
+                        そのため，第2部数学科の新1年生向けに，情報を1箇所にまとめた非公式サイトを開設しました．
+                        今後学生生活に役立つさまざまな情報を載せていく予定です．
+                        管理者も新1年のため，誤った情報や不足している点がたくさんあると思いますので，つねに最新の公式発表も確認するようにしましょう．
+                        情報提供や改善の提案は <a href="https://docs.google.com/forms/d/1LwwUYLwPktWRQDjhVva-1r8abPOQnuBFBb3e_b2quVk">情報提供フォーム</a>にお願いします．
+                    </Typography>
+                </Paper>
+            </Grid>
+            <Grid item xs={12}>
+                <Paper className={classes.paper}>
                     <Typography variant="h5" gutterBottom={true}>直近の日程</Typography>
                     <Typography variant="body1">
                         入学式含め，4月のイベントはすべて中止になりました．
