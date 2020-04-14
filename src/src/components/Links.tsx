@@ -13,6 +13,31 @@ const Links: React.FC = () => {
             <List>
                 <ListItem>
                     <ListItemText>
+                        <OuterLink href="https://tusuas1.tus.ac.jp/is/pw.htm">パスワード変更画面</OuterLink>
+                    </ListItemText>
+                </ListItem>
+                <ListItem>
+                    <ListItemText>
+                        <OuterLink href="https://class.admin.tus.ac.jp/up/faces/login/Com00501A.jsp">CLASS (PC版)</OuterLink>
+                    </ListItemText>
+                </ListItem>
+                <ListItem>
+                    <ListItemText>
+                        <OuterLink href="https://class.admin.tus.ac.jp/up/up/co/smartphone/login.jsp">CLASS (スマートフォン版)</OuterLink>
+                    </ListItemText>
+                </ListItem>
+                <ListItem>
+                    <ListItemText>
+                        <OuterLink href="https://login.microsoftonline.com/">Office</OuterLink>
+                    </ListItemText>
+                </ListItem>
+                <ListItem>
+                    <ListItemText>
+                        <OuterLink href="https://letus.ed.tus.ac.jp/">LETUS</OuterLink>
+                    </ListItemText>
+                </ListItem>
+                <ListItem>
+                    <ListItemText>
                         <OuterLink href="https://www.tus.ac.jp/today/archive/20200409_8347.html">(重要)2020年5月1日以降の授業の開講について</OuterLink>
                     </ListItemText>
                 </ListItem>
