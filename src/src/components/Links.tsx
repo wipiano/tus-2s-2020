@@ -38,6 +38,14 @@ const Links: React.FC = () => {
                 </ListItem>
                 <ListItem>
                     <ListItemText>
+                        <OuterLink href="https://account.box.com/login">BOX</OuterLink>
+                    </ListItemText>
+                </ListItem>
+                <ListItem>
+                    <ListItemText href="https://class.admin.tus.ac.jp/up/faces/up/po/pPoa0202A.jsp?fieldId=form1:Poa00201A:htmlParentTable:3:htmlDetailTbl:1:linkEx1">クラス分け</ListItemText>
+                </ListItem>
+                <ListItem>
+                    <ListItemText>
                         <OuterLink href="https://www.tus.ac.jp/today/archive/20200409_8347.html">(重要)2020年5月1日以降の授業の開講について</OuterLink>
                     </ListItemText>
                 </ListItem>
