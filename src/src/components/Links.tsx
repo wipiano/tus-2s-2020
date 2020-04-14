@@ -42,7 +42,9 @@ const Links: React.FC = () => {
                     </ListItemText>
                 </ListItem>
                 <ListItem>
-                    <ListItemText href="https://class.admin.tus.ac.jp/up/faces/up/po/pPoa0202A.jsp?fieldId=form1:Poa00201A:htmlParentTable:3:htmlDetailTbl:1:linkEx1">クラス分け</ListItemText>
+                    <ListItemText >
+                        <OuterLink href="https://class.admin.tus.ac.jp/up/faces/up/po/pPoa0202A.jsp">クラス分け</OuterLink>
+                    </ListItemText>
                 </ListItem>
                 <ListItem>
                     <ListItemText>
